@@ -1,12 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>enup0</title>
+	<title>Forum Homepage</title>
+	<style>
+		body {
+			background-color: #FFFFFF;
+			font-family: Arial, sans-serif;
+			font-size: 14px;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			margin: 0 auto;
+			max-width: 960px;
+			padding: 20px;
+		}
+
+		.navbar {
+			background-color: #336699;
+			color: #FFFFFF;
+			padding: 10px;
+			display: flex;
+			align-items: center;
+		}
+
+		.navbar img {
+			height: 50px;
+			margin-right: 10px;
+		}
+
+		.navbar ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbar li {
+			display: inline;
+			margin-right: 10px;
+		}
+
+		.newsboard {
+			background-color: #FFFFCC;
+			border: 1px solid #CCCCCC;
+			padding: 10px;
+		}
+
+		.newsboard h2 {
+			color: #336699;
+			font-size: 18px;
+			margin-top: 0;
+		}
+
+		.description {
+			background-color: #CCCCCC;
+			padding: 10px;
+		}
+
+		.description p {
+			margin: 0;
+		}
+	</style>
 </head>
 <body>
-  <h1 style="font-family: Lato Thin">Home</h1>
+	<div class="container">
+		<div class="navbar">
+            <img src="enup0-logo.png" width="200" height="100"></img>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Forums</a></li>
+				<li><a href="#">Members</a></li>
+				<li><a href="login.php">Log in</a></li>
+				<li><a href="signup.php">Sign up</a></li>
+			</ul>
+		</div>
+		<div class="newsboard">
+			<h2>Latest News</h2>
+			<p>The enup0 project has begun.</p>
+		</div>
+		<div class="description">
+			<p>Welcome to the enup0 website! This is for the most part a fun project I created and serves no purpose other than expanding my interest and skill in html and web design.</p>
+		</div>
+	</div>
 </body>
 </html>
